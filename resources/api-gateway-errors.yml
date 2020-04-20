@@ -2,7 +2,7 @@ Resources:
   GatewayResponseDefault4XX:
     Type: 'AWS::ApiGateway::GatewayResponse'
     Properties:
-      ResponseParamters:
+      ResponseParameters:
         gatewayresponse.header.Access-Control-Allow-Origin: "'*'"
         gatewayresponse.header.Access-Control-Allow-Headers: "'*'"
       ResponseType: DEFAULT_4XX
@@ -11,7 +11,7 @@ Resources:
   GatewayResponseDefault5XX:
     Type: 'AWS::ApiGateway::GatewayResponse'
     Properties:
-      ResponseParamters:
+      ResponseParameters:
         gatewayresponse.header.Access-Control-Allow-Origin: "'*'"
         gatewayresponse.header.Access-Control-Allow-Headers: "'*'"
       ResponseType: DEFAULT_5XX
